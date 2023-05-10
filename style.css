@@ -1,0 +1,71 @@
+body {
+background-color: ghostwhite;
+color: ghostwhite;
+font-family: 'Signika Negative', sans-serif;
+font-size: 14px;
+line-height: 1.6;
+font-weight: 1px ;
+
+}
+
+h1 {
+color: darkslateblue;
+font-family: 'Outfit', sans-serif;
+font-size: 20;
+letter-spacing: 5px;
+font-size: 35px;
+}
+
+h2 {
+color: deepskyblue;
+font-family: inherit;
+font-size: 30;
+letter-spacing: 5px;
+font-size: 20px;
+
+}.img-circle {
+	border-radius:50%;
+}
+
+div {
+	background: lightsteelblue;
+	padding: 30px;
+	border: 10px blueviolet;
+	border-radius: 10px;
+	box-shadow: 3px 15px 35px rgba(50,70,93,.3);
+	margin: 30px;
+
+	}
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+.card-white {
+	background: lightsteelblue;
+	padding: 30px;
+	box-shadow: 3px 15px 35px rgba(50,70,93,.3);
+	margin: 20px 0px;
+	text-align: center;
+
+}
+.btn-purple { 
+	background-color:darkslateblue;
+	color: white;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
